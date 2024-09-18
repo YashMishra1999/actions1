@@ -1,0 +1,13 @@
+name: my first job
+
+on: push
+
+jobs:
+     runs-on: ubuntu-latest
+     steps:
+        first_job:
+        - name: checkout
+          uses: actions/checkout@v4\
+
+        - name: message
+          run: echo "hellow this is my first pipeline"
