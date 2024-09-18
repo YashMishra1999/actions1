@@ -8,7 +8,7 @@ jobs:
     uses: actions/checkout@v4\
 
   - name: message
-    run: echo "hellow this is my first pipeline1"
+    run: echo "hellow this is my first pipeline1 created"
     
   
   
